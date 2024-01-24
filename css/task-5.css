@@ -1,0 +1,26 @@
+.widget{
+    display: flex;
+    flex-direction: column;
+    margin: 88px 100px;
+    justify-content: center;
+      align-items: center;
+      height: 100%;
+}
+.change-color{
+    
+      padding: 8px 16px;
+      
+      gap: 16px;
+      border-radius: 8px;
+        background-color: #4E75FF;
+        border: none;
+        color: #FFF;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 1.5;
+          letter-spacing: 0.04em;
+  }
+  .change-color:hover {
+    background-color: #6C8CFF;
+  }
