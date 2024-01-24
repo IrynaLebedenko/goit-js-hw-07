@@ -19,8 +19,8 @@ function getRandomHexColor() {
     if (amount > 1 && amount <=100)
   {  let markup = [];
     for (let i = 0; i < amount; i++) {
-      const boxWidth = ${30 + 10 * ipx};
-      const boxHeight = ${30 + 10 * i}px;
+      const boxWidth = 30 + 10 * i;
+      const boxHeight = 30 + 10 * i;
       const boxColor = getRandomHexColor();
       markup.push(`<div style="background-color: ${boxColor}; width:${boxWidth}px; height:${boxHeight}px" class="box"></div> \n`);
     }

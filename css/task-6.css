@@ -61,5 +61,6 @@
     flex-wrap: wrap;
     background-color: #F6F6FE;
     border-radius: 8px;
+    gap: 16px;
   }
   
